@@ -1,0 +1,15 @@
+Cordillera is a private reading tracker. The book you are on is drawn as a ridge; you pin the pages you read today and the profile climbs toward the last page, which the app calls the summit. It is for one reader who wants an on-device expedition through a volume, not a social shelf or a storefront.
+
+• Treat the current volume as a ridge and show an elevation profile toward the summit
+• Pack: search a title, type an ISBN, or scan the barcode on a book, then moor a hold with a page count
+• Open a packed volume to start a traverse (only one traverse at a time)
+• Pin today's pages on the open traverse; the list of pins grows
+• Missed days leave a dashed gap
+• Bridge this week: once this week, at twice the page count, close the oldest gap, or spend those pages with no gap to close. Those pages count toward the summit
+• Recenter the summit day after more than three gaps, so Pin works again
+• Peel the last pin (with confirmation) to take the latest page count off the traverse
+• Summits and benchmarks at each tenth of the book, including 100% is the summit
+• Settings: replay the introduction, Contact, or Reset the contour
+• Everything in the pack stays on this device
+
+The Home Screen name is Cordillera. The wordmark on today's profile reads Aviadobil. The pack, pins, gaps, and summits stay on this device.

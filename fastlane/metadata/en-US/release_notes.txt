@@ -1,0 +1,9 @@
+Version 1.0. Cordillera is a private reading tracker. The book you are on is drawn as a ridge; pin the pages you read today and the profile climbs toward the summit.
+
+Pack: search a title, type an ISBN, or scan the barcode on a book, then moor a hold with a page count and open a traverse.
+
+Pin today's pages. Missed days leave a dashed gap. Bridge this week closes the oldest gap once, at twice the page count, or spends those pages as a hollow mark.
+
+Peel the last pin. Recenter the summit day after more than three gaps. Summits list finished volumes and benchmarks at each tenth of the book, including 100% is the summit.
+
+Settings: Show introduction, Contact, or Reset the contour. Everything in the pack stays on this device.

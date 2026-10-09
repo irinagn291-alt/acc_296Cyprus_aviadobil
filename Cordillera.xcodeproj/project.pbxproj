@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00768623286E22B9AF3C30CB /* SettingsSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0AF24E7DC6103C9F4499A /* SettingsSheetController.swift */; };
+		00A91450CFB7E2BC4E3F64EE /* BridgeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02249A88D9A9A762ACC90DEF /* BridgeMark.swift */; };
+		0743654EEC0D7382B13AC791 /* TitleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25170A9FC24A3AAAC3BF42 /* TitleSearch.swift */; };
+		0B3FDC21833471DFED962D23 /* PackSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B548B39A81D06FC7889F51 /* PackSheetController.swift */; };
+		0E1BE3750EF0991DF4A562A4 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B1B6E75AAF244749DB443 /* DesignTokens.swift */; };
+		13547B70646CACB419968777 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65C928CDDDB7AC151DC5A4 /* ReviewLaunch.swift */; };
+		17BFCA79B3C65694545CBD22 /* Hold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C29E192A81DEA6D882BD4D /* Hold.swift */; };
+		183FF2D1F56C9FABE780B447 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D65C050C42FD3ABEAABF2E /* APIConfig.swift */; };
+		22577B7F73CC5869F6B1A228 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A87330CB5E241B1A6CFC6 /* OnboardingController.swift */; };
+		22A8C7A22AFB9E8844B1C35D /* SurveyChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE7207BBB6A6F7132457F2E /* SurveyChrome.swift */; };
+		2CF7006C092B96A64A22F486 /* ContourChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2594E20F15D7BCE65B277F44 /* ContourChart.swift */; };
+		31482BAAB0391017BD772471 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7929EBCE445DF7C4EB6ACB /* ProfileViewController.swift */; };
+		374C00560496FF938810ED1C /* CordilleraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71BD3F7C0A3D5FF49F9174 /* CordilleraTests.swift */; };
+		3F21E045AD5E5D4627070817 /* OpenLibraryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA80408640D9585ED71AAAE /* OpenLibraryClient.swift */; };
+		48387AFE357FBC94E75AE9A9 /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A192AEED080EEB7E7FE70 /* Benchmark.swift */; };
+		53770F1380CCE34755A826FF /* HollowMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C516A71997D67AEFDF9804B /* HollowMark.swift */; };
+		582DF888FD15F1C1A9D8F616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2876E39EF25BCC003A24A092 /* AppDelegate.swift */; };
+		587D723E848450D9FDE11D51 /* SurveyDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F480BA4B0F1E4E7EEFF11 /* SurveyDay.swift */; };
+		6074E0DFC4A2EBD89B14DB22 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DBB41CDDDED0E5C98DE83FC4 /* Alamofire */; };
+		6DD86738CFC9BA7F5DD08936 /* SummitsSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5671A332BFE7111E2B3CCF /* SummitsSheetController.swift */; };
+		7D145E7239EA9024884FFD7B /* TrigMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224116E081FB125540E865B8 /* TrigMark.swift */; };
+		8C485A83165A754CCDE223B8 /* SummitRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AD7668820D3EDBD1125D1 /* SummitRegistry.swift */; };
+		929A838394476D6C8C75D065 /* ProfileCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA28D255DE946C29C122129 /* ProfileCanvas.swift */; };
+		93D55C3E70955DEDAE3F9285 /* ProfileDrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BA223FEB02ABE351F554A /* ProfileDrift.swift */; };
+		B3D8853E03CD3A23F13BC480 /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503EFA8E564E281240980EB /* DemoSeed.swift */; };
+		BCA2A60724C62F6BE8B6BEC7 /* Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9930D8681A218674D664099 /* Traverse.swift */; };
+		BE89C6ED136B71828736755E /* MoorRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC353589A53659A27F132F /* MoorRecord.swift */; };
+		BFC4F219E1D6394A69E41E5C /* TraverseSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8964A7E4124E6B635B64C /* TraverseSheetController.swift */; };
+		C206E5FF08C6815AF04B3CB5 /* GapSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDD309793C90C8F87C7B39B /* GapSegment.swift */; };
+		D0EF7042CB2C40F98D1762AD /* ISBNCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B1D45517C7FD7AAC2FD6E /* ISBNCapture.swift */; };
+		D9C0F56CB39554F1951D8C42 /* RecenterMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C9D2338B85218405F89C3 /* RecenterMark.swift */; };
+		E310A8F111C7866396D8D107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57293B5B4F16AAB660C87D80 /* Assets.xcassets */; };
+		EA9C3B2038F68B9873AE0373 /* ContourStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F50F54A565009993137B2 /* ContourStore.swift */; };
+		EB1ECE894C321E66D84B6A7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420CDFB627D823B96FAB9D10 /* ContentView.swift */; };
+		F56F8014AE784B902702E81E /* CordilleraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AF0A5102F7B4055A137240 /* CordilleraApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B62419F41D37B53273E93BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88176E947445EE479989CED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D33F8B41CC63FF389FFD146;
+			remoteInfo = Cordillera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02249A88D9A9A762ACC90DEF /* BridgeMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeMark.swift; sourceTree = "<group>"; };
+		063F480BA4B0F1E4E7EEFF11 /* SurveyDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyDay.swift; sourceTree = "<group>"; };
+		0FD8964A7E4124E6B635B64C /* TraverseSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraverseSheetController.swift; sourceTree = "<group>"; };
+		16D65C050C42FD3ABEAABF2E /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		198B6DB7A233F796E207AD16 /* CordilleraTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CordilleraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224116E081FB125540E865B8 /* TrigMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrigMark.swift; sourceTree = "<group>"; };
+		2594E20F15D7BCE65B277F44 /* ContourChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourChart.swift; sourceTree = "<group>"; };
+		2876E39EF25BCC003A24A092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D0AD7668820D3EDBD1125D1 /* SummitRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitRegistry.swift; sourceTree = "<group>"; };
+		3503EFA8E564E281240980EB /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
+		420CDFB627D823B96FAB9D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45D0AF24E7DC6103C9F4499A /* SettingsSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheetController.swift; sourceTree = "<group>"; };
+		57293B5B4F16AAB660C87D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C516A71997D67AEFDF9804B /* HollowMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowMark.swift; sourceTree = "<group>"; };
+		67AF0A5102F7B4055A137240 /* CordilleraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordilleraApp.swift; sourceTree = "<group>"; };
+		71C29E192A81DEA6D882BD4D /* Hold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hold.swift; sourceTree = "<group>"; };
+		741B1B6E75AAF244749DB443 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		749A87330CB5E241B1A6CFC6 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		868A192AEED080EEB7E7FE70 /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
+		8AA303A9BBB658F43B40B373 /* Cordillera.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Cordillera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D71BD3F7C0A3D5FF49F9174 /* CordilleraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordilleraTests.swift; sourceTree = "<group>"; };
+		8EA28D255DE946C29C122129 /* ProfileCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCanvas.swift; sourceTree = "<group>"; };
+		931C9D2338B85218405F89C3 /* RecenterMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecenterMark.swift; sourceTree = "<group>"; };
+		940F50F54A565009993137B2 /* ContourStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourStore.swift; sourceTree = "<group>"; };
+		9FA80408640D9585ED71AAAE /* OpenLibraryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenLibraryClient.swift; sourceTree = "<group>"; };
+		A3B548B39A81D06FC7889F51 /* PackSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackSheetController.swift; sourceTree = "<group>"; };
+		BA7929EBCE445DF7C4EB6ACB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BDEC353589A53659A27F132F /* MoorRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoorRecord.swift; sourceTree = "<group>"; };
+		CA65C928CDDDB7AC151DC5A4 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		CE25170A9FC24A3AAAC3BF42 /* TitleSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSearch.swift; sourceTree = "<group>"; };
+		DEDD309793C90C8F87C7B39B /* GapSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapSegment.swift; sourceTree = "<group>"; };
+		DFE7207BBB6A6F7132457F2E /* SurveyChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyChrome.swift; sourceTree = "<group>"; };
+		E18BA223FEB02ABE351F554A /* ProfileDrift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDrift.swift; sourceTree = "<group>"; };
+		E9930D8681A218674D664099 /* Traverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traverse.swift; sourceTree = "<group>"; };
+		EF5671A332BFE7111E2B3CCF /* SummitsSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitsSheetController.swift; sourceTree = "<group>"; };
+		F82B1D45517C7FD7AAC2FD6E /* ISBNCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISBNCapture.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BC5D2785EF665679B0CFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6074E0DFC4A2EBD89B14DB22 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227C9B2466408E3A37C2C3FB /* Benchmark */ = {
+			isa = PBXGroup;
+			children = (
+				868A192AEED080EEB7E7FE70 /* Benchmark.swift */,
+			);
+			path = Benchmark;
+			sourceTree = "<group>";
+		};
+		30821213381B4EB017F403FB /* Pack */ = {
+			isa = PBXGroup;
+			children = (
+				F82B1D45517C7FD7AAC2FD6E /* ISBNCapture.swift */,
+				BDEC353589A53659A27F132F /* MoorRecord.swift */,
+				9FA80408640D9585ED71AAAE /* OpenLibraryClient.swift */,
+				A3B548B39A81D06FC7889F51 /* PackSheetController.swift */,
+				CE25170A9FC24A3AAAC3BF42 /* TitleSearch.swift */,
+			);
+			path = Pack;
+			sourceTree = "<group>";
+		};
+		3D1CE36B7AE18D68721CFD87 /* BridgeMark */ = {
+			isa = PBXGroup;
+			children = (
+				02249A88D9A9A762ACC90DEF /* BridgeMark.swift */,
+				5C516A71997D67AEFDF9804B /* HollowMark.swift */,
+			);
+			path = BridgeMark;
+			sourceTree = "<group>";
+		};
+		5EBE3F1FC30252D17ADEE7ED = {
+			isa = PBXGroup;
+			children = (
+				94ED7A703FBB3FD40B3F3290 /* Cordillera */,
+				F6E9EA293F9A0A1A3BCA220E /* CordilleraTests */,
+				72E4071E983F60A22CC87082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72E4071E983F60A22CC87082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA303A9BBB658F43B40B373 /* Cordillera.app */,
+				198B6DB7A233F796E207AD16 /* CordilleraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9457FC21A638ADD7BEB89775 /* TrigMark */ = {
+			isa = PBXGroup;
+			children = (
+				224116E081FB125540E865B8 /* TrigMark.swift */,
+			);
+			path = TrigMark;
+			sourceTree = "<group>";
+		};
+		94ED7A703FBB3FD40B3F3290 /* Cordillera */ = {
+			isa = PBXGroup;
+			children = (
+				16D65C050C42FD3ABEAABF2E /* APIConfig.swift */,
+				2876E39EF25BCC003A24A092 /* AppDelegate.swift */,
+				57293B5B4F16AAB660C87D80 /* Assets.xcassets */,
+				420CDFB627D823B96FAB9D10 /* ContentView.swift */,
+				67AF0A5102F7B4055A137240 /* CordilleraApp.swift */,
+				741B1B6E75AAF244749DB443 /* DesignTokens.swift */,
+				CA65C928CDDDB7AC151DC5A4 /* ReviewLaunch.swift */,
+				227C9B2466408E3A37C2C3FB /* Benchmark */,
+				3D1CE36B7AE18D68721CFD87 /* BridgeMark */,
+				F39F18050612F5D81FC13436 /* GapSegment */,
+				E17BB7C9C199DC8621C3C072 /* Hold */,
+				30821213381B4EB017F403FB /* Pack */,
+				C41AB809D5B352B41CAE17CA /* Profile */,
+				DE1C6EBD5C797428F0423968 /* RecenterMark */,
+				ED5298ED468BFFEC61272B3B /* Settings */,
+				DCFCD5A214192E9B25F018B2 /* Summits */,
+				F996D9B3267CE92BC23DC8CF /* Traverse */,
+				9457FC21A638ADD7BEB89775 /* TrigMark */,
+			);
+			path = Cordillera;
+			sourceTree = "<group>";
+		};
+		C41AB809D5B352B41CAE17CA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2594E20F15D7BCE65B277F44 /* ContourChart.swift */,
+				940F50F54A565009993137B2 /* ContourStore.swift */,
+				3503EFA8E564E281240980EB /* DemoSeed.swift */,
+				8EA28D255DE946C29C122129 /* ProfileCanvas.swift */,
+				E18BA223FEB02ABE351F554A /* ProfileDrift.swift */,
+				BA7929EBCE445DF7C4EB6ACB /* ProfileViewController.swift */,
+				DFE7207BBB6A6F7132457F2E /* SurveyChrome.swift */,
+				063F480BA4B0F1E4E7EEFF11 /* SurveyDay.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DCFCD5A214192E9B25F018B2 /* Summits */ = {
+			isa = PBXGroup;
+			children = (
+				2D0AD7668820D3EDBD1125D1 /* SummitRegistry.swift */,
+				EF5671A332BFE7111E2B3CCF /* SummitsSheetController.swift */,
+			);
+			path = Summits;
+			sourceTree = "<group>";
+		};
+		DE1C6EBD5C797428F0423968 /* RecenterMark */ = {
+			isa = PBXGroup;
+			children = (
+				931C9D2338B85218405F89C3 /* RecenterMark.swift */,
+			);
+			path = RecenterMark;
+			sourceTree = "<group>";
+		};
+		E17BB7C9C199DC8621C3C072 /* Hold */ = {
+			isa = PBXGroup;
+			children = (
+				71C29E192A81DEA6D882BD4D /* Hold.swift */,
+			);
+			path = Hold;
+			sourceTree = "<group>";
+		};
+		ED5298ED468BFFEC61272B3B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				749A87330CB5E241B1A6CFC6 /* OnboardingController.swift */,
+				45D0AF24E7DC6103C9F4499A /* SettingsSheetController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F39F18050612F5D81FC13436 /* GapSegment */ = {
+			isa = PBXGroup;
+			children = (
+				DEDD309793C90C8F87C7B39B /* GapSegment.swift */,
+			);
+			path = GapSegment;
+			sourceTree = "<group>";
+		};
+		F6E9EA293F9A0A1A3BCA220E /* CordilleraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D71BD3F7C0A3D5FF49F9174 /* CordilleraTests.swift */,
+			);
+			path = CordilleraTests;
+			sourceTree = "<group>";
+		};
+		F996D9B3267CE92BC23DC8CF /* Traverse */ = {
+			isa = PBXGroup;
+			children = (
+				E9930D8681A218674D664099 /* Traverse.swift */,
+				0FD8964A7E4124E6B635B64C /* TraverseSheetController.swift */,
+			);
+			path = Traverse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D33F8B41CC63FF389FFD146 /* Cordillera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793FFB69F475E845698E0266 /* Build configuration list for PBXNativeTarget "Cordillera" */;
+			buildPhases = (
+				343AE980A617804BDE5CA82C /* Sources */,
+				B359B3D3B2575127ED1DE6ED /* Resources */,
+				45BC5D2785EF665679B0CFCD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cordillera;
+			packageProductDependencies = (
+				DBB41CDDDED0E5C98DE83FC4 /* Alamofire */,
+			);
+			productName = Cordillera;
+			productReference = 8AA303A9BBB658F43B40B373 /* Cordillera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE4612437E89817A045DDF2 /* CordilleraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F44DC6FB0C0822A6DFFAE9 /* Build configuration list for PBXNativeTarget "CordilleraTests" */;
+			buildPhases = (
+				7EB10F7FAB50408B4F472287 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0392B8CC7F5C839DB5396CEE /* PBXTargetDependency */,
+			);
+			name = CordilleraTests;
+			packageProductDependencies = (
+			);
+			productName = CordilleraTests;
+			productReference = 198B6DB7A233F796E207AD16 /* CordilleraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88176E947445EE479989CED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8D33F8B41CC63FF389FFD146 = {
+						ProvisioningStyle = Automatic;
+					};
+					BAE4612437E89817A045DDF2 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E7D2AD005A5CEC3E0D6562AD /* Build configuration list for PBXProject "Cordillera" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5EBE3F1FC30252D17ADEE7ED;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7549E68BCD4A3D067D45BAE5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 72E4071E983F60A22CC87082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D33F8B41CC63FF389FFD146 /* Cordillera */,
+				BAE4612437E89817A045DDF2 /* CordilleraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B359B3D3B2575127ED1DE6ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E310A8F111C7866396D8D107 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343AE980A617804BDE5CA82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183FF2D1F56C9FABE780B447 /* APIConfig.swift in Sources */,
+				582DF888FD15F1C1A9D8F616 /* AppDelegate.swift in Sources */,
+				48387AFE357FBC94E75AE9A9 /* Benchmark.swift in Sources */,
+				00A91450CFB7E2BC4E3F64EE /* BridgeMark.swift in Sources */,
+				EB1ECE894C321E66D84B6A7F /* ContentView.swift in Sources */,
+				2CF7006C092B96A64A22F486 /* ContourChart.swift in Sources */,
+				EA9C3B2038F68B9873AE0373 /* ContourStore.swift in Sources */,
+				F56F8014AE784B902702E81E /* CordilleraApp.swift in Sources */,
+				B3D8853E03CD3A23F13BC480 /* DemoSeed.swift in Sources */,
+				0E1BE3750EF0991DF4A562A4 /* DesignTokens.swift in Sources */,
+				C206E5FF08C6815AF04B3CB5 /* GapSegment.swift in Sources */,
+				17BFCA79B3C65694545CBD22 /* Hold.swift in Sources */,
+				53770F1380CCE34755A826FF /* HollowMark.swift in Sources */,
+				D0EF7042CB2C40F98D1762AD /* ISBNCapture.swift in Sources */,
+				BE89C6ED136B71828736755E /* MoorRecord.swift in Sources */,
+				22577B7F73CC5869F6B1A228 /* OnboardingController.swift in Sources */,
+				3F21E045AD5E5D4627070817 /* OpenLibraryClient.swift in Sources */,
+				0B3FDC21833471DFED962D23 /* PackSheetController.swift in Sources */,
+				929A838394476D6C8C75D065 /* ProfileCanvas.swift in Sources */,
+				93D55C3E70955DEDAE3F9285 /* ProfileDrift.swift in Sources */,
+				31482BAAB0391017BD772471 /* ProfileViewController.swift in Sources */,
+				D9C0F56CB39554F1951D8C42 /* RecenterMark.swift in Sources */,
+				13547B70646CACB419968777 /* ReviewLaunch.swift in Sources */,
+				00768623286E22B9AF3C30CB /* SettingsSheetController.swift in Sources */,
+				8C485A83165A754CCDE223B8 /* SummitRegistry.swift in Sources */,
+				6DD86738CFC9BA7F5DD08936 /* SummitsSheetController.swift in Sources */,
+				22A8C7A22AFB9E8844B1C35D /* SurveyChrome.swift in Sources */,
+				587D723E848450D9FDE11D51 /* SurveyDay.swift in Sources */,
+				0743654EEC0D7382B13AC791 /* TitleSearch.swift in Sources */,
+				BCA2A60724C62F6BE8B6BEC7 /* Traverse.swift in Sources */,
+				BFC4F219E1D6394A69E41E5C /* TraverseSheetController.swift in Sources */,
+				7D145E7239EA9024884FFD7B /* TrigMark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB10F7FAB50408B4F472287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374C00560496FF938810ED1C /* CordilleraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0392B8CC7F5C839DB5396CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D33F8B41CC63FF389FFD146 /* Cordillera */;
+			targetProxy = B62419F41D37B53273E93BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04ED7AC4830411EE5E1BF231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordillera.profile.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cordillera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cordillera";
+			};
+			name = Release;
+		};
+		07B5D4D510F1CB87053DE562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordillera.profile.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cordillera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cordillera";
+			};
+			name = Debug;
+		};
+		6A2995E0E811F4EAE1FCA506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		A89EC09157EE5D462B3AD567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Aviadobil;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cordillera reads the barcode on a book so Pack can moor that volume on this device.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordillera.profile;
+				PRODUCT_NAME = Cordillera;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F90E844DF527C6A1B5E65226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		FCE73817ADB71897DFA944D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Aviadobil;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cordillera reads the barcode on a book so Pack can moor that volume on this device.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordillera.profile;
+				PRODUCT_NAME = Cordillera;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F44DC6FB0C0822A6DFFAE9 /* Build configuration list for PBXNativeTarget "CordilleraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B5D4D510F1CB87053DE562 /* Debug */,
+				04ED7AC4830411EE5E1BF231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		793FFB69F475E845698E0266 /* Build configuration list for PBXNativeTarget "Cordillera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89EC09157EE5D462B3AD567 /* Debug */,
+				FCE73817ADB71897DFA944D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7D2AD005A5CEC3E0D6562AD /* Build configuration list for PBXProject "Cordillera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90E844DF527C6A1B5E65226 /* Debug */,
+				6A2995E0E811F4EAE1FCA506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7549E68BCD4A3D067D45BAE5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ymvmj7dsyy-stack/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 3ea8e93ec37a3ae5f255afb529ef20f438dd1903;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBB41CDDDED0E5C98DE83FC4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7549E68BCD4A3D067D45BAE5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 88176E947445EE479989CED9 /* Project object */;
+}

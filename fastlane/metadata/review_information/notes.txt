@@ -1,0 +1,21 @@
+Camera access appears only from Pack, and only after Continue (or automatically if it was already allowed). The usage string is: Cordillera reads the barcode on a book so Pack can moor that volume on this device. The system alert is the only place that says Allow. If access is off: The camera is off, so type the ISBN or search a title. and Open Settings.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Cordillera is a private reading tracker. The book you are on is drawn as a ridge; you pin the pages you read today and the profile climbs toward the last page, which the app calls the summit. It is for one reader who wants an on-device expedition through a volume, not a social shelf or a storefront.
+
+No credentials or demo account are needed. A cold launch shows the system launch screen (no titles or buttons), then the introduction: three pages, each with Skip and Continue. Skip on any page, or Continue on page 3, ends the introduction. Page 1 of 3: The book becomes a ridge. Cordillera draws the volume you are reading as an elevation profile. Page 2 of 3: Pin the pages you read. Each pin moves you along the ridge toward the summit of the book. Page 3 of 3: Close one gap this week. A day without a pin leaves a dashed gap. Bridge closes the oldest one. First launch then shows No expedition yet / Open a volume. Tap Open to open Pack.
+
+On Pack, Search a title or scan the barcode. If the camera has not been decided yet, tap Continue after The next step starts the camera so a barcode can fill the ISBN. After allow: Point the preview at the barcode. After deny: The camera is off. Type the ISBN or search a title. Type Title or ISBN and Pages, tap Search, then tap a result row to moor and open a traverse. Success: The traverse is open. Pin today's pages on the profile. Close dismisses Pack.
+
+On today's profile, wordmark Aviadobil, enter Pages read today (filled with 12 after the introduction) and tap Pin today's pages. Then try Bridge this week. Pack, Traverse, Summits, and Settings open as sheets. Settings appears only after at least one volume exists. On Traverse, Peel the last pin or Recenter the summit day after more than three gaps. Close traverse only dismisses the sheet. Summits lists finished volumes and 100% is the summit. Settings: Show introduction, Reset, and Contact.
+
+The pack, pins, gaps, and summits stay on this device. Settings says The contour stays on this device. Title search and ISBN lookup need a network match; they do not create an account. Contact on Settings is the support control; the address shown is https://cordillera-profile.pro/contact-us.
+
+The interface is English only. There is no region lock. Counts and percents follow the device locale. Behaviour does not differ by region.
+
+No licence or regulated-industry paperwork applies. The app is a personal reading log and does not sell books or collect payment.
+
+The app is a personal log only and gives no recommendations. None for health, medical, or product-health information. There are no citations.
+
+The Pack preview reads the barcode on a book so an ISBN can fill Title or ISBN. It also accepts a QR code that contains an ISBN (a run of 8 to 14 digits). It does not scan groceries or tickets. A scannable QR (qr-code.png) is attached to this review. It encodes 9780143127741. Simulator users type those digits in Title or ISBN, then tap Moor ISBN or Search.
