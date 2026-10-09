@@ -1,4 +1,4 @@
-<!-- gf-brief source=7d50e89be207da7b84f2f710eb68e27bd192567e06f8ed87c38553156b39ac23 written=2026-10-09T12:31:33+03:00 -->
+<!-- gf-brief source=7d50e89be207da7b84f2f710eb68e27bd192567e06f8ed87c38553156b39ac23 written=2026-10-09T12:31:58+03:00 -->
 # Cordillera
 
 ## What it is
